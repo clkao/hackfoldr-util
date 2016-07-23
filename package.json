@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Hackfoldr Utility helpers",
   "main": "dist/hackfoldr-util.js",
+  "browser": "dist/browser.js",
   "jsnext:main": "lib/index.js",
   "scripts": {
     "prebuild": "eslint lib test",
@@ -50,6 +51,7 @@
     "rollup-plugin-babel": "^2.5.1",
     "rollup-plugin-commonjs": "^3.3.1",
     "rollup-plugin-json": "^2.0.1",
+    "rollup-plugin-node-builtins": "^1.0.6",
     "rollup-plugin-node-resolve": "^1.7.1",
     "rollup-plugin-uglify": "^1.0.1"
   }
